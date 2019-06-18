@@ -1,0 +1,120 @@
+{
+    "Plywood":[
+      {
+        "name":"Ferro MR Ply"
+      },
+      {
+        "name":"Ferro Waterproof Ply"
+      },
+      {
+        "name":"GL Ply"
+      },
+      {
+        "name":"Woodtek Ply"
+      },
+      {
+        "name":"Dove Ply"
+      },
+      {
+        "name":"Figoro Ply"
+      },
+      {
+        "name":"Assam Green Ply"
+      },
+      {
+        "name":"Century Ply"
+      },
+      {
+        "name":"Green Ply"
+      },
+      {
+        "name":"Dell Ply"
+      }
+    ],
+    "Boards":[
+      {
+        "name":"BLOCK BOARD"
+      },
+      {
+        "name":"SOFT BOARD"
+      }
+    ],
+    "Laminates":[
+      {
+        "name":"DURIAN LINER 0.8 MM/0.92 MM"
+      },
+      {
+        "name":"ROYAL TOUCH 1 MM/1.25 MM"
+      },
+      {
+        "name":"GREENLAM"
+      },
+      {
+        "name":"CENTURY"
+      },
+      {
+        "name":"MICA"
+      },
+      {
+        "name":"SUNDEK"
+      },
+      {
+        "name":"MERRINO"
+      }
+    ],
+    "Veneer":[
+      {
+        "name":"NATURAL VENEER"
+      },
+      {
+        "name":"RECON VENEER"
+      }
+    ],
+    "Timber":[
+      {
+        "name":"SPECIAL GHANA"
+      },
+      {
+        "name":"BURMATEAK"
+      },
+      {
+        "name":"PINE WOOD"
+      },
+      {
+        "name":"STEEM BEACH"
+      },
+      {
+        "name":"WHITE BEACH"
+      }
+    ],
+    "MDF":[
+      {
+        "name":"PLAIN"
+      },
+      {
+        "name":"WATERPROOF"
+      }
+    ],
+    "Other Plys":[
+      {
+        "name":"SHUTTERING PLY"
+      },
+      {
+        "name":"FLEXY PLY"
+      },
+      {
+        "name":"PVC PLY"
+      }
+    ],
+    "Veneer MDF":[
+      {
+        "name":"STRAIGHT LINE"
+      },
+      {
+        "name":"FLOWERY"
+      },
+      {
+        "name":"BLACK BAL"
+      }
+    ]
+  }

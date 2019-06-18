@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Krishna Plywood</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="JS/JQuery.js"></script>
+    <script src="JS/Bootstrap.js"></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/ScrollReveal.js"></script>
+    <link type="text/css" rel="stylesheet" href="CSS/lightslider.css"/>
+    <script src="JS/lightslider.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="Img/favicon.png" rel="icon" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<!--Modal-->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <!--<div id="modal_overlay"></div>-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+                <!--<label>Ferro MR Ply</label>-->
+                <!--<label class="even">Ferro Waterproof Ply</label>-->
+                <!--<label>GL Ply</label>-->
+                <!--<label class="even">Woodtek Ply</label>-->
+                <!--<label>Dove Ply</label>-->
+                <!--<label class="even">Figoro Ply</label>-->
+                <!--<label>Assam Green Ply</label>-->
+                <!--<label class="even">Century Ply</label>-->
+                <!--<label>Green Ply</label>-->
+                <!--<label class="even">Dell Ply</label>-->
+                <div id="modal_back"></div>
+                <div class="product-flex-container modal-flex-container">
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Ferro MR Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Ferro Waterproof Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Woodtek Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">GL Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Dove Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Figoro Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Assam Green Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Century Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Green Ply</div>-->
+                    <!--</div>-->
+                    <!--<div class="product-flex-item module come-in modal-list">-->
+                    <!--<div class="product_desc modal-desc">Dell Ply</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+            <!--<div class="modal-footer">-->
+            <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<!--
+********************************************************************
+* Responsive Transparent Navbar
+********************************************************************
+-->
+<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+                <span><img src="Img/Hamburger_icon.svg.png" height="30px" width="30px"></span>
+            </button>
+            <a class="navbar-brand" href="#home"><img id="logo" height="80px" src="Img/KP%20Logobig.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navMain">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="#home" class="nav_collapse one">Home</a></li>
+                <li><a href="#our_products" class="nav_collapse two">Our Products</a></li>
+                <li><a href="#about_us" class="nav_collapse three">About Us</a></li>
+                <li id="mob"><a href="#contact_us" class="nav_collapse four">Contact Us</a></li>
+                <li id="desk"><a href="#contact_us_alt" class="nav_collapse four">Contact Us</a></li>
+                <hr id="nav_line"/>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="main_wrapper" style="background:transparent;">
+    <!--<div style="background:url('forest.jpg') no-repeat;background-size:100%;height:100%;width:100%;position: fixed;"></div>-->
+    <div id="home" class="panels">
+        <!--<img id="home_img" src="Img/banner4.jpg" height="80%" width="100%"/>-->
+        <div id="header_wrapper">
+            <div id="top_header">Krishna</div>
+            <div id="bottom_header">Plywood</div>
+        </div>
+        <!--<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">-->
+        <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+        <!--<ol class="carousel-indicators">-->
+        <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+        <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+        <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+        <!--</ol>-->
+
+        <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+        <!--<div class="carousel-inner">-->
+        <!--<div class="item active">-->
+        <!--<img src="la.jpg" alt="Chania">-->
+        <!--<div class="carousel-caption">-->
+        <!--<h3>Los Angeles</h3>-->
+        <!--<p>LA is always so much fun!</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="item">-->
+        <!--<img src="chicago.jpg" alt="Chicago">-->
+        <!--<div class="carousel-caption">-->
+        <!--<h3>Chicago</h3>-->
+        <!--<p>Thank you, Chicago!</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="item">-->
+        <!--<img src="ny.jpg" alt="New York">-->
+        <!--<div class="carousel-caption">-->
+        <!--<h3>New York</h3>-->
+        <!--<p>We love the Big Apple!</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Left and right controls &ndash;&gt;-->
+        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
+        <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+        <!--<span class="sr-only">Previous</span>-->
+        <!--</a>-->
+        <!--<a class="right carousel-control" href="#myCarousel" data-slide="next">-->
+        <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+        <!--<span class="sr-only">Next</span>-->
+        <!--</a>-->
+        <!--</div>-->
+    </div>
+    <div id="our_products" class="panels">
+        <div class="heading">
+            Our Products
+        </div>
+        <div style="height:80%;" id="prod_cont">
+            <div class="product-flex-container">
+                <div class="product-flex-item module come-in" onclick="modalTrigger('Plywood')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/plywood.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">Plywood</div>
+                </div>
+                <div class="product-flex-item module come-in" onclick="modalTrigger('Boards')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/blockboard.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">Boards</div>
+                </div>
+                <div class="product-flex-item module come-in" onclick="modalTrigger('Laminates')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/laminates.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">Laminates</div>
+                </div>
+                <div class="product-flex-item module come-in" onclick="modalTrigger('Veneer')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/veneer.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">Veneer</div>
+                </div>
+                <div class="product-flex-item module come-in" onclick="modalTrigger('Timber')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/timber.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">Timber</div>
+                </div>
+                <div class="product-flex-item module come-in" onclick="modalTrigger('MDF')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/softboard.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">MDF</div>
+                </div>
+                <div class="product-flex-item module come-in" onclick="modalTrigger('Other Plys')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/shuttering_ply.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">Other Plys</div>
+                </div>
+                <div class="product-flex-item module come-in" onclick="modalTrigger('Veneer MDF')">
+                    <div class="product-img" style='height: 94%; width: 94%;'>
+                        <img src="Img/pvc_ply.jpg" height="180px" width="220px">
+                    </div>
+                    <div class="product_desc">Veneer MDF</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div id="middle" class="panels">-->
+    <!--<div id="middle_child">-->
+    <!--THE FOREST FRIENDLY COMPANY<br/>-->
+    <!--<span style="font-size:40px;">Relentlessly raising the bar of environment awareness</span>-->
+    <!--</div>-->
+    <!--</div>-->
+    <div id="about_us" class="panels">
+        <div class="heading" style="margin-bottom:3%;/*color:white;*/">
+            About Us
+        </div>
+        <div id="about_us_outer_box">
+            <div id="about_us_box">
+                <img src="Img/black.jpg" height="150px" width="150px" style="margin-top:45px;"/>
+                <!--<div id="border_outer">-->
+                <!--<div id="border_inner"></div>-->
+                <!--</div>-->
+                <p id="about_us_para">Krishna Plywood has been in the plywood business for over twenty years. We are the
+                    currently the biggest
+                    and cheapest plywood selling company in Gujarat. We sell a variety of high quality plywood that are
+                    available
+                    in all shapes and sizes.
+                </p>
+            </div>
+        </div>
+        <div id="about_us_box_mob">
+            <!--<img src="Img/black.jpg" height="150px" width="150px" style="margin-top:45px;"/>-->
+            <div id="slideshow_mob">
+                <div>
+                    <img src="Img/forest.jpg">
+                </div>
+                <div>
+                    <img src="Img/banner4.jpg">
+                </div>
+                <div>
+                    <img src="Img/woodtexture.jpg">
+                </div>
+            </div>
+            <!--<div id="border_outer">-->
+            <!--<div id="border_inner"></div>-->
+            <!--</div>-->
+            <p id="about_us_para_mob">Krishna Plywood has been in the plywood business for over twenty years. We are the
+                currently the biggest
+                and cheapest plywood selling company in Gujarat. We sell a variety of high quality plywood that are
+                available
+                in all shapes and sizes.
+            </p>
+        </div>
+    </div>
+    <div id="contact_us" class="panels">
+        <div id="left_cu" style="width:33%;height:100%;padding-left:15px;padding-right:15px;">
+            <div class="title_bg">
+                <p class="site_map_title title">Location</p>
+                <hr class="h_line  white11">
+            </div>
+            <div class="content_cu">
+                <p style="color:white;">Krishna Plywoods,<br/>A-6, Sanidhay Avenue, Near Pasand Hotel, Gota-Ognaj Road,
+                    Gota, Ahmedabad.
+                    <br/>Pincode - 382481
+                    <br/><a href="https://www.google.co.in/maps/place/Krishna+Plywood/@23.0972677,72.548135,18.38z/data=!4m8!1m2!2m1!1sKrishna+plywoods,+ahemdabad!3m4!1s0x395e831976d655fd:0x6b59c4b37f53ddb5!8m2!3d23.097735!4d72.549124?hl=en">View in Map</a>
+                </p>
+            </div>
+        </div>
+        <div id="middle_cu" style="width:33%;height:100%;padding-right:5px;">
+            <div class="title_bg">
+                <p class="site_map_title title">Timings</p>
+                <hr class="h_line white11">
+            </div>
+            <div class="content_cu">
+                <p style="color:white;">
+                    All Days: 9am - 8pm
+                </p>
+            </div>
+            <div class="title_bg">
+                <p class="site_map_title title">Contact</p>
+                <hr class="h_line white11">
+            </div>
+            <div class="content_cu">
+                <p style="color:white;">
+                    MOB: +919825015965
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="contact_us_alt" class="panels">
+        <div class="heading" style="margin-bottom:1%;/*color:white;*/">
+            Contact Us
+        </div>
+        <div id="contact_us_upper_box">
+            <div id="contact_us_upper">
+                <!--<div id="contact_us_box">-->
+                <!--<div id="contact_us_top">-->
+                <!--<div class="title_bg">-->
+                <!--<p class="site_map_title title">Location</p>-->
+                <!--<hr class="h_line  white11">-->
+                <!--</div>-->
+                <div id="contact_us_upper_left">
+                    <div id="contact_us_heading">
+                        Our Location
+                    </div>
+                    <br/><br/><br/>
+                    <div class="content_cu" style="padding-left:6%; padding-top:2%;">
+                        <p style="color:white;text-align:left;">Krishna Plywoods,<br/>A-6, Sanidhay Avenue, Near Pasand
+                            Hotel,
+                            Gota-Ognaj Road,
+                            Gota, Ahmedabad.
+                            <br/>Pincode - 382481
+                        </p>
+                    </div>
+                </div>
+                <div id="contact_us_upper_right">
+                    <div id="map_wrapper">
+                        <div id="map"></div>
+                    </div>
+
+                </div>
+            </div>
+            <!--</div>-->
+        </div>
+        <div id="contact_us_outer_box">
+            <div id="contact_us_bottom">
+                <div id="contact_us_left">
+                    <div class="title_bg">
+                        <p class="site_map_title title">Timings</p>
+                        <hr class="h_line white11">
+                    </div>
+                    <div class="content_cu">
+                        <p style="color:white;text-align: left;">
+                            All Days: 9am - 8pm
+                        </p>
+                    </div>
+                    <div class="title_bg">
+                        <p class="site_map_title title">Contact</p>
+                        <hr class="h_line white11">
+                    </div>
+                    <div class="content_cu">
+                        <p style="color:white;text-align: left;">
+                            MOB: +919825015965
+                        </p>
+                    </div>
+                </div>
+                <div id="contact_us_right">
+                    <!--<div id="map_wrapper">-->
+                    <!--<div id="map"></div>-->
+                    <!--</div>-->
+                    <!--<div style="height:900px;width:700px;border:1px solid red;">-->
+                    <div id="slideshow">
+                        <div>
+                            <img src="Img/forest.jpg">
+                        </div>
+                        <div>
+                            <img src="Img/banner4.jpg">
+                        </div>
+                        <div>
+                            <img src="Img/woodtexture.jpg">
+                        </div>
+                    </div>
+                    <script>
+                        function initMap() {
+                            console.log("map");
+                            var uluru = {lat: 23.097735, lng: 72.549124};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 15,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }
+                    </script>
+                    <script async defer
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8MQTbjmt4T9VBJH-rUxms12Vpdxug84&callback=initMap">
+                    </script>
+                </div>
+            </div>
+            <!--</div>-->
+        </div>
+    </div>
+    <div id="footer" class="panels">
+        <span id="foot">Created by Akash Sebastian | akash.sebastian6@gmail.com</span>
+    </div>
+</div>
+</body>
+</html>
